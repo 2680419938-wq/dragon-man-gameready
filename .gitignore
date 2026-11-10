@@ -1,0 +1,16 @@
+# 白名单式忽略：根目录默认全部忽略，只放行交付内容
+# （并行会话/临时脚本/记忆数据/备份一律进不了仓库）
+/*
+
+!.gitignore
+!README.md
+!LICENSE
+!/dragon-men-gameready
+!/dragon-men-tpose
+
+# 放行目录内的兜底
+Thumbs.db
+Desktop.ini
+*.tmp
+~$*
+*.blend1
